@@ -29,7 +29,7 @@ class Director:
             self (Director): an instance of Director.
         """
         # TODO: Uncomment this when you have finished the food class
-        #self._food = Food()
+        self._food = Food()
         self._input_service = input_service
         self._keep_playing = True
         self._output_service = output_service
